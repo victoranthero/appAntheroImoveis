@@ -1,0 +1,313 @@
+        * {
+            cursor: context-menu;
+        }
+
+        .div:hover>.btn {
+            display: block;
+            opacity: 1;
+            transform: rotate(360);
+            transition: all 1s;
+        }
+
+
+       
+        body {
+            overflow-x: hidden
+        }
+
+        /* Cor de fundo do Topo */
+        .topo-total {
+            background: #fff
+        }
+
+        .topo {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around
+        }
+
+        .topo>div {
+            margin: 20px 0;
+            display: flex;
+            align-items: center
+        }        
+
+        /* Cor do Fundo do Topo(menu) */
+        .menu li a.ativo {
+            background: #fff
+        }
+
+        /* Cor de Fundo do Rodape */
+        .rodape-total {
+            background: #fff;
+            padding: 40px 0;
+            position: relative
+        }
+
+        .rodape {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around
+        }
+
+        /* Cor da Letra do Rodape */
+        .rodape div {
+            font: 16px calibri;
+            color: #DDA520;
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            text-align: center
+        }
+    
+        .logo-pw div {
+            margin: 0 !important;
+            display: block;
+            text-align: left
+        }
+
+        .logo-pw div a span {
+            color: transparent
+        }
+
+        .fundo-slider {
+            position: relative;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .fundo-slider img {
+            max-width: initial;
+        }
+
+
+        .box-02-total {
+            padding: 20px 0px;
+        }
+
+        .box-02 {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Titulo SObre a Imobiliaria */
+        .box-02>.titulo {
+            font: 70px 'cursiva';
+            color: #DDA520;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .box-02 .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .box-02 .box .item {
+            margin: 20px 0px;
+            width: 300px;
+            padding: 20px;
+            border-radius: 20px;
+            transition: all 0.5s;
+        }
+
+        /* fundo hover do conteudo visão missão e valores*/
+        .box-02 .box .item:hover {
+            background: #000edb;
+            transition: all 1.5s;
+        }
+
+        .box-02 .box .item .titulo i {
+            color: inherit;
+            font-size: 45px;
+            padding-right: 30px;
+        }
+
+        .box-02 .box .item .conteudo {
+            font: 19px/18px 'arial';
+            color: #DDA520;
+        }
+
+        .box-03-total {
+            background: #000edb;
+            padding: 20px 0px;
+        }
+
+        .box-03 {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .box-03 .item {
+            width: 500px;
+            margin: 20px 0px;
+        }
+
+        @media only screen and (max-width:1200px) {
+            * {
+                max-width: 100%;
+                box-sizing: border-box
+            }
+
+            .conteudo-pages {
+                padding: 2%
+            }
+
+            .rodape>div {
+                margin: 20px auto !important;
+            }
+        }
+
+        @media only screen and (max-width:800px) {
+            .rodape div {
+                width: 100% !important;
+                justify-content: center;
+            }
+        }
+
+        @media only screen and (max-width:500px) {
+            .box-01 .titulo {
+                font-size: 50px !important;
+            }
+
+            .box-02>.titulo {
+                font-size: 50px !important;
+                margin-bottom: 0 !important;
+            }
+        }
+
+        @media only screen and (max-width:400px) {
+            .logo img {
+                padding: 0 10px;
+                display: block;
+            }
+        }
+
+        .fundo-slider {
+            position: relative;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .fundo-slider img {
+            max-width: initial;
+        }
+
+        .box-01-total {
+            padding: 30px 0px;
+            background: #000edb;
+        }
+
+        .box-01 {
+            width: 830px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Titulo Sobre a Empresa*/
+        .box-01 .titulo {
+            font: 80px 'cursiva';
+            color: #DDA520;
+            margin-bottom: 10px;
+        }
+
+        /* Conteudo Sobre a Empresa*/
+        .box-01 .conteudo {
+            font: 25px 'calibri';
+            font-weight: lighter;
+            color: #DDA520;
+        }
+
+        .box-02-total {
+            padding: 20px 0px;
+        }
+
+        .box-02 {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .box-02.titulo {
+            font: 70px 'cursiva';
+            color: #000edb;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .box-02 .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .box-02 .box .item {
+            margin: 20px 0px;
+            width: 300px;
+            padding: 20px;
+            border-radius: 20px;
+            transition: all 0.5s;
+        }
+
+        .box-02 .box .item:hover {
+            background: #DDA520 transition: all 0.5s;
+        }
+
+        /*Cor da letra Visão, Valores e Missão e linha*/
+        .box-02 .box .item .titulo {
+            font: 30px 'calibri';
+            color: #DDA520;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #DDA520;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box-02 .box .item .titulo i {
+            color: inherit;
+            font-size: 45px;
+            padding-right: 20px;
+        }
+
+        /*Conteudo sobre Visão, Valores e Missão*/
+        .box-02 .box .item .conteudo {
+            font: 19px/18px 'calibri';
+            color: #DDA520;
+        }
+
+        .box-03-total {
+            background: #000edb;
+            padding: 20px 0px;
+        }
+
+        .box-03 {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .box-03 .item {
+            width: 500px;
+            margin: 20px 0px;
+        }
+
+        .box-03 .item>.titulo {
+            font: 52px 'cursiva';
+            color: #000edb;
+            margin-bottom: 10px;
+        }
+
+        .box-03 .item .contato {
+            padding: 10px;
+        }

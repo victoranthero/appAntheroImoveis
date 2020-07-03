@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Anthero Imoveis</string>
+    <string name="SiteAntheroImoveis">
+        <a href="F:\AntheroImoveisUI\SiteEmpresaAntheroImoveis">www.antheroimoveis.com.br</a>
+    </string>
+    <string name="title_activity_maps">Map</string>
+</resources>

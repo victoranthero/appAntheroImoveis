@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/degrade"
+tools:context=".HomePage" >
+
+
+<TextView
+    android:id="@+id/idSejaBemVindo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:text="Seja Bem Vindo..."
+    android:textColor="#dda520"
+    android:textSize="30sp"
+    tools:layout_editor_absoluteX="88dp"
+    tools:layout_editor_absoluteY="15dp" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center"
+    android:autoText="true"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:text="A Anthero Imóveis, trabalha para você cliente que precisa de um suporte administrativo de qualidade e sério. Contamos com colaboradores eficientes que prezam pelo bom atendimento ao cliente e uma parte jurídica que irá lhe auxiliar e ajudar em todo o processo de Locação e Venda."
+    android:textColor="#ffffff"
+    android:textSize="12sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+    android:id="@+id/textView8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="25dp"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:text="Missão"
+    android:textColor="#dda520"
+    android:textSize="30sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="123dp" />
+
+<TextView
+    android:id="@+id/textView11"
+    android:layout_width="350dp"
+    android:layout_height="70dp"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:layout_gravity="center"
+    android:text="Melhorar o relacionamento entre Locador e Locatários, fazendo valer o respeito ao ser humano. Ter um atendimento profissional e preciso, visando as expectativas dos clientes com crescimento constante da empresa."
+    android:textColor="#ffffff"
+    android:textSize="12sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="174dp" />
+
+<TextView
+    android:id="@+id/textView9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:layout_gravity="center"
+    android:text="Visão"
+    android:textColor="#dda520"
+    android:textSize="30sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="364dp" />
+
+<TextView
+    android:id="@+id/textView12"
+    android:layout_width="350dp"
+    android:layout_height="50dp"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:layout_gravity="center"
+    android:text="Nossa empresa busca chegar ao ápice de uma Imobiliária, onde o objetivo principal é expandir o leque de áreas de atuações como por exemplo, construção civil."
+    android:textColor="#ffffff"
+    android:textSize="12sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="435dp" />
+
+<TextView
+    android:id="@+id/textView10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:text="Valores"
+    android:textColor="#dda520"
+    android:textSize="30sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="589dp" />
+
+<TextView
+    android:id="@+id/textView13"
+    android:layout_width="350dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:text="Trabalhar com clareza, foco, competência e seriedade, sempre com respeito ao próximo."
+    android:textColor="#ffffff"
+    android:textSize="12sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="633dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/botaoacessar"
+        android:onClick="servicos"
+        android:text="Servicos" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/botaoacessar"
+        android:onClick="sair"
+        android:text="Sair" />
+
+    <TextView
+        android:id="@+id/btnSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:clickable="true"
+        android:onClick="site"
+        android:text="www.antheroimoveis.com.br"
+        android:textColor="#000fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/enderecoServicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:textColor="#000fff"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Avenida Albert Einstein, 730, Vila Iasi - Taboão da Serra – SP , CEP: 06.780-110"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="693dp" />
+        />
+
+
+</LinearLayout>
